@@ -38,4 +38,4 @@ def speech_to_text(data: bytes):
     if decoded_data.get("error_code") is None:
         return True, decoded_data.get("result")
     else:
-        return False, f"При запросе в SpeechKit возникла ошибка: {decoded_data["error_message"]}"
+        return False, f'При запросе в SpeechKit возникла ошибка: {decoded_data["error_message"]}'
