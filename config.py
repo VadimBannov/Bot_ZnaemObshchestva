@@ -6,7 +6,7 @@ MAX_USER_STT_BLOCKS = 10  # 10 аудиоблоков
 MAX_USER_TTS_SYMBOLS = 5000  # 5 000 символов
 MAX_USER_GPT_TOKENS = 2000  # 2 000 токенов
 
-HOME_DIR = '/home/student/финальный проект'
+HOME_DIR = '/home/student/Bot_ZnaemObshchestva'
 LOGS = f'{HOME_DIR}/logs.txt'
 DB_NAME = f'{HOME_DIR}/gpt_helper.db'
 DB_TABLE_NAME = 'messages'
